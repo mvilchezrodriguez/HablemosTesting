@@ -33,6 +33,7 @@ public class CalculadoraTest {
         capabilities.setCapability("appActivity", appActivity);
 //driver
         driver = new AndroidDriver<>(new URL(url),capabilities);
+        // prueba desde mi pc 
 
     }
 
